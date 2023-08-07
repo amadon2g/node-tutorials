@@ -19,7 +19,11 @@ console.log(currentOs)
 // PATH
 const path = require('path')
 console.log(path.sep);
-console.log(path.resolve(__dirname));
+const filePath = path.join('/content', 'subfolder', 'test.txt')
+console.log(filePath);
+console.log(path.basename(filePath))
+const absolute = path.resolve(__dirname, 'content', 'subfolder', 'test.txt')
+console.log(absolute)
 // File System
 // HTTP
 

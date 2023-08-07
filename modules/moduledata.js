@@ -1,10 +1,10 @@
 //local i.e do not share
 const secret = "MY SECRET"
 
-//global
+//share
 const john = 'john'
 const peter = 'peter'
 
-console.log(module)
-
 module.exports = { john, peter }
+
+console.log(module)

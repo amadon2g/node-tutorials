@@ -9,5 +9,5 @@ const second = readFileSync('C:/Users/Amadon/Desktop/node tutorial/content/secon
 writeFileSync(
     'C:/Users/Amadon/Desktop/node tutorial/content/result.txt',
     `Here is the result ${first}, ${second}`,
-    {flag: 'a'}
+    {flag: 'a'}//append to file use flag "a"
     )

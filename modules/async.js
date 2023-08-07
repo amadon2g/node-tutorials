@@ -8,7 +8,7 @@ readFile('C:/Users/Amadon/Desktop/node tutorial/content/first.txt','utf8', (err,
 
     let first = result;
     readFile('C:/Users/Amadon/Desktop/node tutorial/content/second.txt','utf8', (err, result) => {
-        if(err) {
+        if(err) { 
             console.log(err)
             return
         }  
